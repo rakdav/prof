@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>638</width>
+    <height>137</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Выберите тип посещения</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/icons/icons/user-add-line.svg</normaloff>:/icons/icons/user-add-line.svg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QFrame{
+	border: None;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="grd_lay_mainest">
+   <item row="0" column="0" alignment="Qt::AlignVCenter">
+    <widget class="QFrame" name="frame_main">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="grd_lay_main">
+      <item row="1" column="0">
+       <widget class="QFrame" name="frame_single">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="v_lay_single">
+         <item>
+          <widget class="QPushButton" name="btn_single">
+           <property name="styleSheet">
+            <string notr="true">QPushButton:hover:pressed{
+	background-color: rgb(203, 203, 203);
+}
+QPushButton:hover{
+	background-color: rgb(220, 220, 220);
+}
+QPushButton{
+	background-color: rgb(235, 235, 235);
+	padding: 5;
+	border-radius: 22;
+	border: 1px solid rgb(86, 86, 86);}</string>
+           </property>
+           <property name="text">
+            <string>Личное посещение</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>icons/User &amp; Faces/user-line.svg</normaloff>icons/User &amp; Faces/user-line.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="2">
+       <widget class="QLabel" name="lbl_type_of_visit">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Выберите тип посещения:</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::AutoText</enum>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QFrame" name="frame_gorup">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="v_lay_group">
+         <item>
+          <widget class="QPushButton" name="btn_group">
+           <property name="styleSheet">
+            <string notr="true">QPushButton:hover:pressed{
+	background-color: rgb(203, 203, 203);
+}
+QPushButton:hover{
+	background-color: rgb(220, 220, 220);
+}
+QPushButton{
+	background-color: rgb(235, 235, 235);
+	padding: 5;
+	border-radius: 22;
+	border: 1px solid rgb(255, 170, 0);}</string>
+           </property>
+           <property name="text">
+            <string>Групповое посещение</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>icons/User &amp; Faces/group-line.svg</normaloff>icons/User &amp; Faces/group-line.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

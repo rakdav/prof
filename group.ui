@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>932</width>
+    <height>554</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 25 10pt &quot;Roboto&quot;;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_6">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item row="0" column="2" alignment="Qt::AlignVCenter">
+       <widget class="QFrame" name="frame_10">
+        <property name="styleSheet">
+         <string notr="true">QFrame{
+	border: None;
+	border-radius: 20;
+}
+QLineEdit{
+	padding: 2
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_8">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_20">
+           <property name="styleSheet">
+            <string notr="true">border: None;
+border-radius:10;
+background-color: rgb(255, 170, 0);
+padding: 5;</string>
+           </property>
+           <property name="text">
+            <string>Подразделение</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="lbl_dep">
+           <property name="text">
+            <string>Подразделение</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLineEdit" name="le_dep"/>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="lbl_sfl">
+           <property name="text">
+            <string>ФИО</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLineEdit" name="lineEdit_12"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="1" alignment="Qt::AlignVCenter">
+       <widget class="QFrame" name="frame_9">
+        <property name="styleSheet">
+         <string notr="true">QFrame{
+	border: None;
+	border-radius: 20;
+}
+QLineEdit, QDateEdit{
+	padding: 2;
+}
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_7">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_15">
+           <property name="styleSheet">
+            <string notr="true">border: None;
+border-radius:10;
+background-color: rgb(255, 170, 0);
+padding: 5;</string>
+           </property>
+           <property name="text">
+            <string>Информация для пропуска</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_16">
+           <property name="text">
+            <string>Срок действия заявки</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <layout class="QFormLayout" name="formLayout_4">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_17">
+               <property name="text">
+                <string>C </string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QDateEdit" name="de_start">
+               <property name="wrapping">
+                <bool>true</bool>
+               </property>
+               <property name="frame">
+                <bool>false</bool>
+               </property>
+               <property name="buttonSymbols">
+                <enum>QAbstractSpinBox::UpDownArrows</enum>
+               </property>
+               <property name="accelerated">
+                <bool>false</bool>
+               </property>
+               <property name="correctionMode">
+                <enum>QAbstractSpinBox::CorrectToPreviousValue</enum>
+               </property>
+               <property name="showGroupSeparator" stdset="0">
+                <bool>false</bool>
+               </property>
+               <property name="calendarPopup">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QFormLayout" name="formLayout_5">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_18">
+               <property name="text">
+                <string>По</string>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QDateEdit" name="de_end">
+               <property name="calendarPopup">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="lbl_target">
+           <property name="text">
+            <string>Цель посещения</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLineEdit" name="le_target"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame_2">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_5">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0" colspan="5">
+       <widget class="QLabel" name="label_14">
+        <property name="styleSheet">
+         <string notr="true">border: None;
+border-radius:12;
+background-color: rgb(255, 170, 0);
+padding: 7;</string>
+        </property>
+        <property name="text">
+         <string>Информация о посетителе</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" alignment="Qt::AlignVCenter">
+       <widget class="QFrame" name="frame_1">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMaximumSize</enum>
+         </property>
+         <property name="horizontalSpacing">
+          <number>5</number>
+         </property>
+         <property name="verticalSpacing">
+          <number>8</number>
+         </property>
+         <item row="2" column="0">
+          <widget class="QLabel" name="lbl_last">
+           <property name="text">
+            <string>Отчество</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="le_last">
+           <property name="placeholderText">
+            <string>Пример: Александрович</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QLineEdit" name="le_email">
+           <property name="placeholderText">
+            <string>Пример: example@gmail.com</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="lbl_sur">
+           <property name="text">
+            <string>Фамилия</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="le_name">
+           <property name="placeholderText">
+            <string>Пример: Александр</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="lbl_email">
+           <property name="text">
+            <string>E-mail</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="le_phone">
+           <property name="inputMask">
+            <string/>
+           </property>
+           <property name="maxLength">
+            <number>12</number>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="placeholderText">
+            <string>Пример: +7 123 456 78 90</string>
+           </property>
+           <property name="cursorMoveStyle">
+            <enum>Qt::LogicalMoveStyle</enum>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="le_sur">
+           <property name="placeholderText">
+            <string>Пример: Алексеев</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="lbl_phone">
+           <property name="text">
+            <string>Телефон</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="lbl_name">
+           <property name="text">
+            <string>Имя</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="2" alignment="Qt::AlignVCenter">
+       <widget class="QFrame" name="frame_6">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_4" columnminimumwidth="0,0">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMaximumSize</enum>
+         </property>
+         <property name="horizontalSpacing">
+          <number>5</number>
+         </property>
+         <property name="verticalSpacing">
+          <number>8</number>
+         </property>
+         <item row="4" column="0">
+          <widget class="QLabel" name="lbl_num">
+           <property name="text">
+            <string>Номер паспорта</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="le_series">
+           <property name="placeholderText">
+            <string>Пример: 1234</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="lbl_birth">
+           <property name="text">
+            <string>Дата рождения</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="lbl_org">
+           <property name="text">
+            <string>Организация</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="lineEdit_6">
+           <property name="placeholderText">
+            <string>Пример: какая-тоОрганизация</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QLineEdit" name="le_num">
+           <property name="placeholderText">
+            <string>Пример: 123456</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="lbl_prim">
+           <property name="text">
+            <string>Примечание</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEdit_7">
+           <property name="placeholderText">
+            <string>Пример: Хачу пиццы</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="lbl_series">
+           <property name="text">
+            <string>Серия паспорта</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QDateEdit" name="de_birth">
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <property name="displayFormat">
+            <string>dd.MM.yyyy</string>
+           </property>
+           <property name="calendarPopup">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QFrame" name="frame_7">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 170, 0);
+border: None;
+padding: 3;
+border-radius: 8</string>
+           </property>
+           <property name="text">
+            <string>Список добавленных посетителей</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTableWidget" name="tw_users">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <column>
+            <property name="text">
+             <string>New Column</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>№</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>ФИО</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Фото</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_add_user">
+           <property name="styleSheet">
+            <string notr="true">QPushButton:hover:pressed{
+	background-color: rgb(203, 203, 203);
+}
+QPushButton:hover{
+	background-color: rgb(220, 220, 220);
+}
+QPushButton{
+	background-color: rgb(235, 235, 235);
+	padding: 5;
+	border-radius: 12;
+	border: 1px solid rgb(86, 86, 86);}</string>
+           </property>
+           <property name="text">
+            <string>Добавить посетителя</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QFrame" name="frame_8">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item alignment="Qt::AlignBottom">
+          <widget class="QLabel" name="lbl_photo">
+           <property name="maximumSize">
+            <size>
+             <width>230</width>
+             <height>200</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>../ws_workout_1/import/User.jpg</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignTop">
+          <widget class="QPushButton" name="pb_photo">
+           <property name="styleSheet">
+            <string notr="true">QPushButton:hover:pressed{
+	background-color: rgb(203, 203, 203);
+}
+QPushButton:hover{
+	background-color: rgb(220, 220, 220);
+}
+QPushButton{
+	background-color: rgb(235, 235, 235);
+	padding: 5;
+	border-radius: 12;
+	border: 1px solid rgb(255, 170, 0);}</string>
+           </property>
+           <property name="text">
+            <string>Загрузить фото</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame_3">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame_4">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="styleSheet">
+            <string notr="true">border: None;
+border-radius:12;
+background-color: rgb(255, 170, 0);
+padding: 7;</string>
+           </property>
+           <property name="text">
+            <string>Прикрепляемые документы</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_upload">
+           <property name="styleSheet">
+            <string notr="true">QPushButton:hover:pressed{
+	background-color: rgb(203, 203, 203);
+}
+QPushButton:hover{
+	background-color: rgb(220, 220, 220);
+}
+QPushButton{
+	background-color: rgb(235, 235, 235);
+	padding: 5;
+	border-radius: 12;
+	border: 1px solid rgb(86, 86, 86);}</string>
+           </property>
+           <property name="text">
+            <string>Загрузить файл</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../ws_workout_1/icons/System/upload-2-fill.svg</normaloff>../ws_workout_1/icons/System/upload-2-fill.svg</iconset>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_5">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="2" column="1">
+          <widget class="QPushButton" name="pb_confirm">
+           <property name="styleSheet">
+            <string notr="true">QPushButton:hover:pressed{
+	background-color: rgb(203, 203, 203);
+}
+QPushButton:hover{
+	background-color: rgb(220, 220, 220);
+}
+QPushButton{
+	background-color: rgb(235, 235, 235);
+	padding: 5;
+	border-radius: 12;
+	border: 1px solid rgb(255, 170, 0);}</string>
+           </property>
+           <property name="text">
+            <string>Подтвердить форму</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../ws_workout_1/icons/Arrows/arrow-right-s-line.svg</normaloff>../ws_workout_1/icons/Arrows/arrow-right-s-line.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>16</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="autoRepeatDelay">
+            <number>300</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="pb_clear">
+           <property name="styleSheet">
+            <string notr="true">QPushButton:hover:pressed{
+	background-color: rgb(203, 203, 203);
+}
+QPushButton:hover{
+	background-color: rgb(220, 220, 220);
+}
+QPushButton{
+	background-color: rgb(235, 235, 235);
+	padding: 5;
+	border-radius: 12;
+	border: 1px solid rgb(86, 86, 86);}</string>
+           </property>
+           <property name="text">
+            <string>Очистить форму</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../ws_workout_1/icons/Design/eraser-line.svg</normaloff>../ws_workout_1/icons/Design/eraser-line.svg</iconset>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0" colspan="2">
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true">border: None;
+border-radius:12;
+background-color: rgb(255, 170, 0);
+padding: 7;</string>
+           </property>
+           <property name="text">
+            <string>Подтверждение формы</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
