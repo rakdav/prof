@@ -33,9 +33,9 @@ class Ui_Form(object):
         font.setPointSize(10)
         self.label.setFont(font)
         self.label.setStyleSheet("padding: 5;\n"
-"background-color: rgb(255, 170, 0);\n"
-"border: None;\n"
-"border-radius: 12;")
+                                 "background-color: rgb(255, 170, 0);\n"
+                                 "border: None;\n"
+                                 "border-radius: 12;")
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
         self.formLayout.setWidget(0, QtWidgets.QFormLayout.SpanningRole, self.label)
