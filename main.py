@@ -1,7 +1,6 @@
 from PyQt5 import QtWidgets
 import choice
 import sys
-
 import group
 import single
 

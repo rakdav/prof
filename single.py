@@ -23,7 +23,7 @@ class Ui_Form(object):
         font.setWeight(3)
         Form.setFont(font)
         Form.setStyleSheet("font: 25 11pt \"Roboto\";\n"
-"")
+                           "")
         self.verticalLayout_3 = QtWidgets.QVBoxLayout(Form)
         self.verticalLayout_3.setObjectName("verticalLayout_3")
         self.frame = QtWidgets.QFrame(Form)
@@ -35,12 +35,12 @@ class Ui_Form(object):
         self.gridLayout_6.setObjectName("gridLayout_6")
         self.frame_10 = QtWidgets.QFrame(self.frame)
         self.frame_10.setStyleSheet("QFrame{\n"
-"    border: None;\n"
-"    border-radius: 20;\n"
-"}\n"
-"QLineEdit{\n"
-"    padding: 2\n"
-"}")
+                                    "    border: None;\n"
+                                    "    border-radius: 20;\n"
+                                    "}\n"
+                                    "QLineEdit{\n"
+                                    "    padding: 2\n"
+                                    "}")
         self.frame_10.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_10.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_10.setObjectName("frame_10")
@@ -48,9 +48,9 @@ class Ui_Form(object):
         self.gridLayout_8.setObjectName("gridLayout_8")
         self.label_20 = QtWidgets.QLabel(self.frame_10)
         self.label_20.setStyleSheet("border: None;\n"
-"border-radius:10;\n"
-"background-color: rgb(255, 170, 0);\n"
-"padding: 5;")
+                                    "border-radius:10;\n"
+                                    "background-color: rgb(255, 170, 0);\n"
+                                    "padding: 5;")
         self.label_20.setAlignment(QtCore.Qt.AlignCenter)
         self.label_20.setObjectName("label_20")
         self.gridLayout_8.addWidget(self.label_20, 0, 0, 1, 1)
@@ -69,13 +69,13 @@ class Ui_Form(object):
         self.gridLayout_6.addWidget(self.frame_10, 0, 2, 1, 1, QtCore.Qt.AlignVCenter)
         self.frame_9 = QtWidgets.QFrame(self.frame)
         self.frame_9.setStyleSheet("QFrame{\n"
-"    border: None;\n"
-"    border-radius: 20;\n"
-"}\n"
-"QLineEdit, QDateEdit{\n"
-"    padding: 2;\n"
-"}\n"
-"")
+                                   "    border: None;\n"
+                                   "    border-radius: 20;\n"
+                                   "}\n"
+                                   "QLineEdit, QDateEdit{\n"
+                                   "    padding: 2;\n"
+                                   "}\n"
+                                   "")
         self.frame_9.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_9.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_9.setObjectName("frame_9")
@@ -83,9 +83,9 @@ class Ui_Form(object):
         self.gridLayout_7.setObjectName("gridLayout_7")
         self.label_15 = QtWidgets.QLabel(self.frame_9)
         self.label_15.setStyleSheet("border: None;\n"
-"border-radius:10;\n"
-"background-color: rgb(255, 170, 0);\n"
-"padding: 5;")
+                                    "border-radius:10;\n"
+                                    "background-color: rgb(255, 170, 0);\n"
+                                    "padding: 5;")
         self.label_15.setAlignment(QtCore.Qt.AlignCenter)
         self.label_15.setObjectName("label_15")
         self.gridLayout_7.addWidget(self.label_15, 0, 0, 1, 1)
@@ -199,16 +199,16 @@ class Ui_Form(object):
         self.verticalLayout.addWidget(self.lbl_photo)
         self.pb_photo = QtWidgets.QPushButton(self.frame_8)
         self.pb_photo.setStyleSheet("QPushButton:hover:pressed{\n"
-"    background-color: rgb(203, 203, 203);\n"
-"}\n"
-"QPushButton:hover{\n"
-"    background-color: rgb(220, 220, 220);\n"
-"}\n"
-"QPushButton{\n"
-"    background-color: rgb(235, 235, 235);\n"
-"    padding: 5;\n"
-"    border-radius: 12;\n"
-"    border: 1px solid rgb(255, 170, 0);}")
+                                    "    background-color: rgb(203, 203, 203);\n"
+                                    "}\n"
+                                    "QPushButton:hover{\n"
+                                    "    background-color: rgb(220, 220, 220);\n"
+                                    "}\n"
+                                    "QPushButton{\n"
+                                    "    background-color: rgb(235, 235, 235);\n"
+                                    "    padding: 5;\n"
+                                    "    border-radius: 12;\n"
+                                    "    border: 1px solid rgb(255, 170, 0);}")
         self.pb_photo.setObjectName("pb_photo")
         self.verticalLayout.addWidget(self.pb_photo)
         self.gridLayout_5.addWidget(self.frame_8, 1, 3, 1, 1)
@@ -254,9 +254,9 @@ class Ui_Form(object):
         self.gridLayout_5.addWidget(self.frame_6, 1, 2, 1, 1)
         self.label_14 = QtWidgets.QLabel(self.frame_2)
         self.label_14.setStyleSheet("border: None;\n"
-"border-radius:12;\n"
-"background-color: rgb(255, 170, 0);\n"
-"padding: 7;")
+                                    "border-radius:12;\n"
+                                    "background-color: rgb(255, 170, 0);\n"
+                                    "padding: 7;")
         self.label_14.setAlignment(QtCore.Qt.AlignCenter)
         self.label_14.setObjectName("label_14")
         self.gridLayout_5.addWidget(self.label_14, 0, 0, 1, 4)
@@ -276,24 +276,24 @@ class Ui_Form(object):
         self.verticalLayout_2.setObjectName("verticalLayout_2")
         self.label = QtWidgets.QLabel(self.frame_4)
         self.label.setStyleSheet("border: None;\n"
-"border-radius:12;\n"
-"background-color: rgb(255, 170, 0);\n"
-"padding: 7;")
+                                 "border-radius:12;\n"
+                                 "background-color: rgb(255, 170, 0);\n"
+                                 "padding: 7;")
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
         self.verticalLayout_2.addWidget(self.label)
         self.pb_upload = QtWidgets.QPushButton(self.frame_4)
         self.pb_upload.setStyleSheet("QPushButton:hover:pressed{\n"
-"    background-color: rgb(203, 203, 203);\n"
-"}\n"
-"QPushButton:hover{\n"
-"    background-color: rgb(220, 220, 220);\n"
-"}\n"
-"QPushButton{\n"
-"    background-color: rgb(235, 235, 235);\n"
-"    padding: 5;\n"
-"    border-radius: 12;\n"
-"    border: 1px solid rgb(86, 86, 86);}")
+                                     "    background-color: rgb(203, 203, 203);\n"
+                                     "}\n"
+                                     "QPushButton:hover{\n"
+                                     "    background-color: rgb(220, 220, 220);\n"
+                                     "}\n"
+                                     "QPushButton{\n"
+                                     "    background-color: rgb(235, 235, 235);\n"
+                                     "    padding: 5;\n"
+                                     "    border-radius: 12;\n"
+                                     "    border: 1px solid rgb(86, 86, 86);}")
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("icons/System/upload-2-fill.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pb_upload.setIcon(icon)
@@ -308,16 +308,16 @@ class Ui_Form(object):
         self.gridLayout.setObjectName("gridLayout")
         self.pb_confirm = QtWidgets.QPushButton(self.frame_5)
         self.pb_confirm.setStyleSheet("QPushButton:hover:pressed{\n"
-"    background-color: rgb(203, 203, 203);\n"
-"}\n"
-"QPushButton:hover{\n"
-"    background-color: rgb(220, 220, 220);\n"
-"}\n"
-"QPushButton{\n"
-"    background-color: rgb(235, 235, 235);\n"
-"    padding: 5;\n"
-"    border-radius: 12;\n"
-"    border: 1px solid rgb(255, 170, 0);}")
+                                      "    background-color: rgb(203, 203, 203);\n"
+                                      "}\n"
+                                      "QPushButton:hover{\n"
+                                      "    background-color: rgb(220, 220, 220);\n"
+                                      "}\n"
+                                      "QPushButton{\n"
+                                      "    background-color: rgb(235, 235, 235);\n"
+                                      "    padding: 5;\n"
+                                      "    border-radius: 12;\n"
+                                      "    border: 1px solid rgb(255, 170, 0);}")
         icon1 = QtGui.QIcon()
         icon1.addPixmap(QtGui.QPixmap("icons/Arrows/arrow-right-s-line.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pb_confirm.setIcon(icon1)
@@ -327,16 +327,16 @@ class Ui_Form(object):
         self.gridLayout.addWidget(self.pb_confirm, 2, 1, 1, 1)
         self.pb_clear = QtWidgets.QPushButton(self.frame_5)
         self.pb_clear.setStyleSheet("QPushButton:hover:pressed{\n"
-"    background-color: rgb(203, 203, 203);\n"
-"}\n"
-"QPushButton:hover{\n"
-"    background-color: rgb(220, 220, 220);\n"
-"}\n"
-"QPushButton{\n"
-"    background-color: rgb(235, 235, 235);\n"
-"    padding: 5;\n"
-"    border-radius: 12;\n"
-"    border: 1px solid rgb(86, 86, 86);}")
+                                    "    background-color: rgb(203, 203, 203);\n"
+                                    "}\n"
+                                    "QPushButton:hover{\n"
+                                    "    background-color: rgb(220, 220, 220);\n"
+                                    "}\n"
+                                    "QPushButton{\n"
+                                    "    background-color: rgb(235, 235, 235);\n"
+                                    "    padding: 5;\n"
+                                    "    border-radius: 12;\n"
+                                    "    border: 1px solid rgb(86, 86, 86);}")
         icon2 = QtGui.QIcon()
         icon2.addPixmap(QtGui.QPixmap("icons/Design/eraser-line.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pb_clear.setIcon(icon2)
@@ -344,9 +344,9 @@ class Ui_Form(object):
         self.gridLayout.addWidget(self.pb_clear, 2, 0, 1, 1)
         self.label_2 = QtWidgets.QLabel(self.frame_5)
         self.label_2.setStyleSheet("border: None;\n"
-"border-radius:12;\n"
-"background-color: rgb(255, 170, 0);\n"
-"padding: 7;")
+                                   "border-radius:12;\n"
+                                   "background-color: rgb(255, 170, 0);\n"
+                                   "padding: 7;")
         self.label_2.setAlignment(QtCore.Qt.AlignCenter)
         self.label_2.setObjectName("label_2")
         self.gridLayout.addWidget(self.label_2, 0, 0, 1, 2)
