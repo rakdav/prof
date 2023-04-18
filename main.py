@@ -56,14 +56,14 @@ class log_in_window(QtWidgets.QWidget, autorize.Ui_Form):
         db_connect = connect_to_sql_server()
         db_connect.open()
         query = QSqlQuery(db_connect)
-        text_query = f"SELECT first_name FROM UserTable WHERE login='{self.le_login.text()}' " \
+        text_query = f"SELECT first_name FROM Users WHERE login='{self.le_login.text()}' " \
                      f"AND password='{self.le_password.text()}'"
         print(text_query)
         query.prepare(text_query)
         query.exec()
         if query.record() != 0:
             query.first()
-            # print(query.value("first_name"))
+            print(query.value("first_name"))
 
         db_connect.close()
 
